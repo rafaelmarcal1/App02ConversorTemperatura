@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira o valor que seja ser convertido"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:id="@+id/edittext_value"></EditText>
+
+    <Button
+        android:id="@+id/button_converter"
+        android:layout_width="526dp"
+        android:layout_height="wrap_content"
+        android:text="Converter Real para Dólar"></Button>
+    <Button
+        android:id="@+id/button_converter2"
+        android:layout_width="526dp"
+        android:layout_height="wrap_content"
+        android:text="Converter Dolar pra Real"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor em dolar:"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:id="@+id/textview_value_converted"></TextView>
+
+</LinearLayout>
